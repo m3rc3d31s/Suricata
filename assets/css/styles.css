@@ -1,0 +1,46 @@
+body{
+    font-family: 'Open Sans', sans-serif;    
+}
+nav, footer{
+    background: #E83E8C;
+}
+
+nav .container a img{
+    max-width: 132px;
+    max-height: 53px;
+}
+
+header h1{
+    font: normal normal bold 60px/82px Open Sans;
+    color: #707070;
+    text-align: center;
+}
+
+@media (max-width: 980px) {
+    #payment{
+        display:none;
+    }
+} 
+footer{
+    background-color: #e83e8c ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1rem;
+   }
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.bg-c{
+    background-color: #17A2B8;
+}
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+ }
